@@ -1,10 +1,5 @@
 public class FindingPrimeNumbers{
     //find the first 50 prime numbers
-    public static void main(String[] args) {
-        System.out.println("The first 50 prime numbers are ");
-        printFirstNPrimes(50);
-
-    }
     public static boolean isPrime(int n){
 
         if(n <= 1){
